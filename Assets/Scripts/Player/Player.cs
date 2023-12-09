@@ -52,6 +52,14 @@ public class Player : SingletonMonoBehaviour<Player>
     private bool _isSwingingToolUp;
     private bool _isSwingingToolDown;
 
+    private bool _playerInputIsDisabled;
+
+    public bool PlayerInputIsDisabled
+    {
+        get => _playerInputIsDisabled;
+        set => _playerInputIsDisabled = value;
+    }
+
     protected override void Awake()
     {
         base.Awake();
@@ -63,20 +71,22 @@ public class Player : SingletonMonoBehaviour<Player>
 
     private void Update()
     {
-
         #region 玩家输入
-        ResetAnimationTriggers();
-        PlayerMoveInput();
-        EventHandler.CallMovementEvent(_move.x, _move.y, _isWalking, _isRunning, _isIdle,
-            _isCarrying, _enums,
-            _isUsingToolRight, _isUsingToolLeft, _isUsingToolUp, _isUsingToolDown,
-            _isLiftingToolRight, _isLiftingToolLeft, _isLiftingToolUp, _isLiftingToolDown,
-            _isPickingRight, _isPickingLeft, _isPickingUp, _isPickingDown,
-            _isSwingingToolRight, _isSwingingToolLeft, _isSwingingToolUp, _isSwingingToolDown,
-            false, false, false, false);
+
+        if (!PlayerInputIsDisabled)
+        {
+            ResetAnimationTriggers();
+            PlayerMoveInput();
+            EventHandler.CallMovementEvent(_move.x, _move.y, _isWalking, _isRunning, _isIdle,
+                _isCarrying, _enums,
+                _isUsingToolRight, _isUsingToolLeft, _isUsingToolUp, _isUsingToolDown,
+                _isLiftingToolRight, _isLiftingToolLeft, _isLiftingToolUp, _isLiftingToolDown,
+                _isPickingRight, _isPickingLeft, _isPickingUp, _isPickingDown,
+                _isSwingingToolRight, _isSwingingToolLeft, _isSwingingToolUp, _isSwingingToolDown,
+                false, false, false, false);
+        }
 
         #endregion
-
     }
 
     private void FixedUpdate()
@@ -84,7 +94,6 @@ public class Player : SingletonMonoBehaviour<Player>
         _rigidbody.velocity = _move * speed;
     }
 
-    
 
     private void PlayerMoveInput()
     {
