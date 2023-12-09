@@ -30,8 +30,7 @@ MonoBehaviour:
     itemType: 1
     itemDescription: Pumpkin
     itemSprite: {fileID: 21300000, guid: 55a14210ed54a43e1989906377744f2a, type: 3}
-    itemLongDescription: A juicy, fat, ripe pumpkin.  It makes great soup as well
-      as a scary Halloween face!
+    itemLongDescription: "\u4E00\u4E2A\u5357\u74DC"
     itemUseGridRadius: 2
     itemUseRadius: 0
     isStartingItem: 0

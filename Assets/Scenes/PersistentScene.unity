@@ -147,14 +147,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -399,14 +403,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -564,14 +572,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -757,10 +769,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.084533505
-    y: 0
-    width: 0.83044606
-    height: 1
+    x: 0
+    y: 0.058881257
+    width: 1
+    height: 0.8815628
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -944,14 +956,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1047,7 +1063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 670128108}
   - component: {fileID: 670128107}
-  - component: {fileID: 670128106}
+  - component: {fileID: 670128109}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1055,26 +1071,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &670128106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670128105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &670128107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1105,6 +1101,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &670128109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670128105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!224 &699363580 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
@@ -1129,14 +1155,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1230,14 +1260,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1335,6 +1369,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIInventorySlot0 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1564,14 +1606,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1697,14 +1743,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1843,14 +1893,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2046,14 +2100,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2253,6 +2311,7 @@ MonoBehaviour:
   - {fileID: 105627527}
   - {fileID: 242853215}
   - {fileID: 35797043}
+  inventoryDraggedItem: {fileID: 7321041490259788470, guid: 1f4183c71ef3f4af7ac65bd3a770de90, type: 3}
 --- !u!1 &2003402945
 GameObject:
   m_ObjectHideFlags: 0
@@ -3207,14 +3266,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1842237643}
     m_Modifications:
-    - target: {fileID: 355813755902070324, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: dc57d778a76934d41b78ddd47063ebad, type: 3}
     - target: {fileID: 3066435399208902978, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Name
       value: UIInventorySlot0
       objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: slotNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254518897408787067, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
+      propertyPath: inventoryBar
+      value: 
+      objectReference: {fileID: 1842237646}
     - target: {fileID: 6954971592906179472, guid: 0c4b5f64eeb4f479a95aa07ebefd7afb, type: 3}
       propertyPath: m_Pivot.x
       value: 0

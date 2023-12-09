@@ -53,6 +53,14 @@ public class Settings
     public static int idleLeft;
     public static int idleRight;
 
+    //tools
+    public const string HoeingTool = "锄头";
+    public const string ChoppingTool = "斧子";
+    public const string BreakingTool = "尖嘴地锄";
+    public const string ReapingTool = "镰刀";
+    public const string WateringTool = "浇水壶";
+    public const string CollectingTool = "篮子";
+
     static Settings()
     {
         xInput = Animator.StringToHash("xInput");
@@ -85,4 +93,13 @@ public class Settings
         idleLeft = Animator.StringToHash("idleLeft");
         idleRight = Animator.StringToHash("idleRight");
     }
+
+    public static string GetItemTypeDesc(ItemType itemType)
+    {
+        var fieldInfo = itemType.GetType().GetField(itemType.ToString());
+        var attributes = (ItemTypeDesc[])fieldInfo.GetCustomAttributes(typeof(ItemTypeDesc), false);
+
+        return attributes.Length > 0 ? attributes[0].Description : itemType.ToString();
+    }
 }
+

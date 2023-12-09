@@ -107,4 +107,60 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
             { InventoryLocation.Player, Settings.playerInitialInventoryCapacity }
         };
     }
+
+    public void RemoveItem(InventoryLocation player, int itemCode)
+    {
+        List<InventoryItem> inventoryItems = inventory[player];
+        int index = inventoryItems.FindIndex(item => item.itemCode == itemCode);
+        InventoryItem inventoryItem = inventoryItems[index];
+        int newItemQuantity = inventoryItem.itemQuantity - 1;
+        if (newItemQuantity <= 0)
+        {
+            inventoryItems.RemoveAt(index);
+        }
+        else
+        {
+            InventoryItem newInventoryItem = new()
+            {
+                itemCode = itemCode,
+                itemQuantity = newItemQuantity
+            };
+            inventoryItems[index] = newInventoryItem;
+        }
+        EventHandler.CallInventoryUpdateEvent(player, inventoryItems);
+    }
+
+    //交换2个物品的位置
+    public void SwapInventoryItem(InventoryLocation player, int fromItem, int toItem)
+    {
+
+        List<InventoryItem> inventoryItems = inventory[player];
+        int count = inventoryItems.Count();
+        if (fromItem >= count || toItem >= count || fromItem == toItem
+            || fromItem < 0 || toItem < 0)
+        {
+            return;
+        }
+
+        InventoryItem inventoryItem = inventoryItems[fromItem];
+        InventoryItem targetItem = inventoryItems[toItem];
+        inventoryItems[toItem] = inventoryItem;
+        inventoryItems[fromItem] = targetItem;
+        EventHandler.CallInventoryUpdateEvent(player, inventoryItems);
+    }
+
+    //获取物品的描述信息
+    public string GetItemTypeDescription(ItemType itemType)
+    {
+        return itemType switch
+        {
+            ItemType.BreakingTool => Settings.BreakingTool,
+            ItemType.ChoppingTool => Settings.ChoppingTool,
+            ItemType.CollectingTool => Settings.CollectingTool,
+            ItemType.HoeingTool => Settings.HoeingTool,
+            ItemType.ReapingTool => Settings.ReapingTool,
+            ItemType.WateringTool => Settings.WateringTool,
+            _ => Settings.GetItemTypeDesc(itemType),
+        };
+    }
 }

@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71f40a00a00db42b88f586aa28759ffe, type: 2}
-  m_sharedMaterial: {fileID: 6101446161973834492, guid: 71f40a00a00db42b88f586aa28759ffe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3823340cadba142a4b2a55b095c0d560, type: 2}
+  m_sharedMaterial: {fileID: -8849985474947677882, guid: 3823340cadba142a4b2a55b095c0d560, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -227,6 +227,11 @@ MonoBehaviour:
   inventorySlotImage: {fileID: 355813755902070324}
   inventorySlotHighlight: {fileID: 7907917696649575159}
   textMeshProUGUI: {fileID: 3974508509366685793}
+  offset: 100
+  slotNumber: 0
+  inventoryTextBoxPre: {fileID: 3573676901166953081, guid: 21a01a2716aa3473eabf36d376c4050f, type: 3}
+  inventoryBar: {fileID: 0}
+  itemPrefab: {fileID: 8670343349710211884, guid: d9f32d983bfae4c8dabffeec468c8661, type: 3}
   itemDetails:
     itemCode: 0
     itemType: 0
